@@ -13,7 +13,8 @@ import java.util.*;
  * GKislin
  * 31.05.2015.
  */
-public class UserMealsUtil {
+public class MealsUtil
+{
     public static void main(String[] args) {
         List<UserMeal> mealList = Arrays.asList(
                 new UserMeal(LocalDateTime.of(2015, Month.MAY, 30,10,0), "Завтрак", 500),
@@ -28,7 +29,7 @@ public class UserMealsUtil {
 //        .toLocalTime();
     }
 
-    //    Реализовать метод UserMealsUtil.getFilteredWithExceeded:
+    //    Реализовать метод MealsUtil.getFilteredWithExceeded:
     //        -  должны возвращаться только записи между startTime и endTime
     //        -  поле UserMealWithExceed.exceed должно показывать,
     //    превышает ли сумма калорий за весь день параметра метода caloriesPerDay
